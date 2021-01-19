@@ -61,11 +61,13 @@ html, body {
   
     .joinInnerContainer {
       width: 90%;
-    }
-  
+    } 
   
   }
-  
+  .error{
+    background-color: black;
+    color:red;
+  }
   button:focus {
     outline: 0;
   }

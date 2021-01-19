@@ -4,7 +4,7 @@
   }
   
   .input {
-    border: none;
+    border: 2px solid #99aab5;
     border-radius: 0;
     padding: 5%;
     width: 80%;
@@ -19,7 +19,7 @@
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #2979FF;
+    background:  #99aab5;
     padding: 20px;
     display: inline-block;
     border: none;

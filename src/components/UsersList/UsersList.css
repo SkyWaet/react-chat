@@ -1,0 +1,16 @@
+.usersList{
+    border: 2px solid #99aab5;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;    
+}
+
+.activeItem{
+    display: flex;
+    align-items: baseline;
+    margin: 2% auto;
+}
+.avatar{
+    margin-right:2%;
+}

@@ -5,15 +5,39 @@
     height: 100vh;
     background-color: #1A1A1D;
   }
-  
+  .header{
+    height: 10%;
+  }
+  .mainRow{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+  }
   .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background: #FFFFFF;
     border-radius: 8px;
-    height: 60%;
-    width: 35%;
+    height: 100%;
+    width: 60%;
+    border-width: 2px;
+    border-color: black;
+  }
+  .usersList{
+      height: 100%;
+  
+  }
+  .footer{
+    justify-content: space-between;
+    background: #2979FF;
+    border-radius: 4px 4px 0 0;
+    color:#FFFFFF;
+    padding-left:5%;
+    border: 2px solid #99aab5;
+  }
+  .githubRef{
+    color:white;
   }
   
   @media (min-width: 320px) and (max-width: 480px) {
