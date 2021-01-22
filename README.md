@@ -25,7 +25,9 @@ The client part is powered by react, socket.io-client, partially bootstrap, mate
   <li>UsersList -- shows the list of users in the room</li>
     </ol>
    Each component lies in the separate folder with it's own .css file.
+   
 ## Backend
+
 ### Stack
   The server is powered by express and socket.io
 
