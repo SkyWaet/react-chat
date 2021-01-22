@@ -2,6 +2,8 @@ const http = require('http');
 const express = require('express');
 const socketio = require('socket.io');
 const cors = require('cors');
+const path = require('path');
+
 
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
 
@@ -18,9 +20,10 @@ const io = socketio(server,{
   }]
 });
 
+app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/',(req,res)=>{
-    res.send({ response: "Server is up and running." }).status(200);
+    res.sendFile('index.html',path.join(__dirname, 'build'));
 })
 app.use(cors());
 
